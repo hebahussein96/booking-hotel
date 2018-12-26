@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>طيران</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Scripts -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- Google font   -->
+    <link href="https://fonts.googleapis.com/css?family=Changa|Tajawal" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start Navbar  -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-right">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">راحه</a>
+            </div>
+             <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../index.html">تابعنا</a></li>
+                <li><a href="../index.html">اعرف عنا</a></li>
+                <li><a href="../index.html">اللأشهر طلب</a></li>
+                <li><a href="#">سيارات</a></li>
+                <li><a href="air.html">طيران</a></li>
+                <li><a href="#"> فنادق</a></li>
+                <li><a class="navbar-left search" href="#myCarousel" id="srch">
+                <i class="fas fa-search"></i>
+            </a></li>
+            </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End Navbar  -->
+    <div class="main_search_other">
+        <a class="close"><i class="fas fa-times"></i></a>
+        <div class="position">
+            <div class="row">
+                <div class="col-xs-2">
+                    <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="col-xs-2">
+                    <select>
+                        <option>الأكثر مشاهده</option>
+                        <option>الأكثر متابعه</option>
+                        <option>الأكثر طلب</option>
+                    </select>
+                </div>
+
+                <div class="col-xs-2">
+                    <select>
+                        <option>فنادق</option>
+                        <option>طيران</option>
+                        <option>سيارات</option>
+                    </select>
+                </div>
+
+                <div class="col-xs-6">
+                    <input type="search" placeholder="ابحث هنا">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start air travel -->
+    <div class="container">
+        <div class="air main">
+            <div class="row">
+                <div class="col-xs-4 left">
+                    <div class="input-group">
+
+                    </div>
+                </div>
+                <div class="col-xs-4 right">
+                </div>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#internal">داخلي</a></li>
+                <li><a data-toggle="tab" href="#external">خارجي</a></li>
+                <li><a data-toggle="tab" href="#offers">عروض خاصه</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="internal" class="tab-pane fade in active">
+                    <h2>الطيران الدلخلي</h2>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">1000 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>النيل للطيران</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a1.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>القاهره </code></li>
+                                        <li>إلى: <code>اسوان </code></li>
+                                        <li>اماكن فارغه: <kbd> 23 </kbd></li>
+                                        <li>المشاهده: <kbd> 125 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة رجال الأعمال: <kbd> 3 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 20 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">1300 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>النيل للسياحه للداخليه</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a2.jpg" alt="flight pic">
+                                    <button onclick="location.href='reserve_flight.html'" href="#" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>القاهره </code></li>
+                                        <li>إلى: <code>شرم الشيخ </code></li>
+                                        <li>اماكن فارغه: <kbd> 19 </kbd></li>
+                                        <li>المشاهده: <kbd> 130 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة رجال الأعمال: <kbd> 9 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 10 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">2080 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>مصر للطيران</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a3.jpg" alt="flight pic">
+                                    <button href="#" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>القاهره </code></li>
+                                        <li>إلى: <code>الغردقه </code></li>
+                                        <li>اماكن فارغه: <kbd> 51 </kbd></li>
+                                        <li>المشاهده: <kbd> 592 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة رجال الأعمال: <kbd> 11 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 40 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">950 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>النيل للطيران</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3 ">
+                                    <img class="img-responsive" src="../images/a4.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>القاهره </code></li>
+                                        <li>إلى: <code>اسوان </code></li>
+                                        <li>اماكن فارغه: <kbd> 39 </kbd></li>
+                                        <li>المشاهده: <kbd> 89 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة رجال الأعمال: <kbd> 29 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 10 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 page">
+                        <ul class="pagination">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="dots"><span>...</span></li>
+                            <li><a href="#">215</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="external" class="tab-pane fade">
+                    <h3>الطيران الدولي</h3>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">3950 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>الإتحاد</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a4.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>مصر </code></li>
+                                        <li>إلى: <code>الاردن </code></li>
+                                        <li>اماكن فارغه: <kbd> 1 </kbd></li>
+                                        <li>المشاهده: <kbd> 1005 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة الإولى: <kbd> 0 </kbd></li>
+                                            <li>درجة رجال الأعمال: <kbd> 0 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 1 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">5800 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>الإتحاد</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a4.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>مصر </code></li>
+                                        <li>إلى: <code>الإمارات </code></li>
+                                        <li>اماكن فارغه: <kbd> 2 </kbd></li>
+                                        <li>المشاهده: <kbd> 11,560 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة الإولى: <kbd> 0 </kbd></li>
+                                            <li>درجة رجال الأعمال: <kbd> 2 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 0 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">12,000 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>الإتحاد</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a4.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>مصر </code></li>
+                                        <li>إلى: <code>استراليا </code></li>
+                                        <li>اماكن فارغه: <kbd> 1 </kbd></li>
+                                        <li>المشاهده: <kbd> 108,302 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة الإولى: <kbd> 1 </kbd></li>
+                                            <li>درجة رجال الأعمال: <kbd> 0 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 0 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">8,200 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>طيران الإمارات</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>مصر </code></li>
+                                        <li>إلى: <code>كندا </code></li>
+                                        <li>اماكن فارغه: <kbd> 2 </kbd></li>
+                                        <li>المشاهده: <kbd> 108,302 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة الإولى: <kbd> 0 </kbd></li>
+                                            <li>درجة رجال الأعمال: <kbd> 1 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 1 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">5,200 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>طيران الإمارات</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>مصر </code></li>
+                                        <li>إلى: <code>سريلانكا </code></li>
+                                        <li>اماكن فارغه: <kbd> 30 </kbd></li>
+                                        <li>المشاهده: <kbd> 300,501 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة الإولى: <kbd> 1 </kbd></li>
+                                            <li>درجة رجال الأعمال: <kbd> 5 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 24 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">9,200 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>طيران الإمارات</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>مصر </code></li>
+                                        <li>إلى: <code>امريكا </code></li>
+                                        <li>اماكن فارغه: <kbd> 50 </kbd></li>
+                                        <li>المشاهده: <kbd> 300,501 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة الإولى: <kbd> 10 </kbd></li>
+                                            <li>درجة رجال الأعمال: <kbd> 8 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 32 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 page">
+                        <ul class="pagination">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="dots"><span>...</span></li>
+                            <li><a href="#">1520</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="offers" class="tab-pane fade">
+                    <h3>عروض خاصه</h3>
+                    <div class="card">
+                        <div class="discount">25%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">1,200 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>طيران الإمارات</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>مصر </code></li>
+                                        <li>إلى: <code>الهند </code></li>
+                                        <li>اماكن فارغه: <kbd> 50 </kbd></li>
+                                        <li>المشاهده: <kbd> 300,501 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة الإولى: <kbd> 10 </kbd></li>
+                                            <li>درجة رجال الأعمال: <kbd> 8 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 32 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discount">38%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">5,200 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>طيران الإمارات</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>مصر </code></li>
+                                        <li>إلى: <code>الإمارات </code></li>
+                                        <li>اماكن فارغه: <kbd> 1 </kbd></li>
+                                        <li>المشاهده: <kbd> 1,000,501 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة الإولى: <kbd> 0 </kbd></li>
+                                            <li>درجة رجال الأعمال: <kbd> 1 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 0 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discount">50%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">2,200 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>طيران الإمارات</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/a5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>مصر </code></li>
+                                        <li>إلى: <code>الإمارات </code></li>
+                                        <li>اماكن فارغه: <kbd> 10 </kbd></li>
+                                        <li>المشاهده: <kbd> 20,230 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة الإولى: <kbd> 1 </kbd></li>
+                                            <li>درجة رجال الأعمال: <kbd> 2 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 7 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discount">12%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">19,200 جنيه</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>القطريه</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/qatareya.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">احجز</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> التفاصيل :</h3>
+                                    <ul>
+                                        <li>من: <code>مصر </code></li>
+                                        <li>إلى: <code>الصين </code></li>
+                                        <li>اماكن فارغه: <kbd> 1 </kbd></li>
+                                        <li>المشاهده: <kbd> 2,900,000 </kbd></li>
+                                        <h3>الدرجات:</h3>
+                                        <ul>
+                                            <li>درجة الإولى: <kbd> 1 </kbd></li>
+                                            <li>درجة رجال الأعمال: <kbd> 0 </kbd></li>
+                                            <li>درجة السياحيه: <kbd> 0 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 page">
+                        <ul class="pagination">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="dots"><span>...</span></li>
+                            <li><a href="#">82</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end air travel tickets   -->
+    <!-- Start CopyRight  -->
+    <div class="copyright airpg">
+        <div class="container">
+            <div class="row text-center">
+                <h4>© <a href="">Rwabett</a> Internship team 2018</h4>
+            </div>
+        </div>
+    </div>
+    <!-- End   CopyRight  -->
+</body>
+
+</html>

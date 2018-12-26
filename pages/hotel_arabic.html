@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> hotels </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style_arabic.css">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Scripts -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- Google font   -->
+    <link href="https://fonts.googleapis.com/css?family=Changa|Tajawal" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start Navbar  -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-right">
+                <a class="navbar-brand" href="../index.html">Ra7a</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../index.html">Contact Us</a></li>
+                <li><a href="../index.html">About Us</a></li>
+                <li><a href="../index.html">Most popular</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Flight  </a></li>
+                <li><a href="#" class="active">Hotels</a></li>
+            </ul>
+            <a class="navbar-left search" id="srch">
+                <i class="fas fa-search"></i>
+            </a>
+
+        </div>
+    </nav>
+    <!-- End Navbar  -->
+    <div class="main_search_other">
+        <a class="close"><i class="fas fa-times"></i></a>
+        <div class="position">
+            <div class="row">
+                <div class="col-xs-2">
+                    <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="col-xs-2">
+                    <select>
+                        <option>3 Stars</option>
+                        <option>4 Stars</option>
+                        <option>5 Stars</option>
+                    </select>
+                </div>
+
+                <div class="col-xs-2">
+                    <select>
+                        <option>Hotels</option>
+                        <option>Flight</option>
+                        <option>Cars</option>
+                    </select>
+                </div>
+
+                <div class="col-xs-6">
+                    <input type="search" placeholder="search">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start air travel -->
+    <div class="container">
+        <div class="air main">
+            <div class="row">
+                <div class="col-xs-4 left">
+                    <div class="input-group">
+
+                    </div>
+                </div>
+                <div class="col-xs-4 right">
+                </div>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#internal">3 Stars </a></li>
+                <li><a data-toggle="tab" href="#external">4 Stars</a></li>
+                <li><a data-toggle="tab" href="#offers">5 Stars</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="internal" class="tab-pane fade in active">
+                    <h2>3 Stars </h2>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">1000 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Areina en hotel </h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h1.jpg" alt="hotel pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> Detailes </h3>
+                                    <ul>
+                                        <li>Address <code>39 Talaat Harb St., Downtown, 11511 Cairo, Egypt</code></li>
+                                        <li>Extensions<code>Includes breakfast</code>
+                                            <code>You can pay later</code>
+                                            <code>  Free cancellation</code></li>
+                                        <li>Empty places<kbd> 23 </kbd></li>
+                                        <li>Evaluation<kbd> 133 </kbd></li>
+                                        <h3>Room type </h3>
+                                        <ul>
+                                            <li> Standard Room with Nile View  <kbd> 3 </kbd></li>
+                                            <li> Superior Room with Nile View<kbd> 20 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left"> 1300 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Grand Royal hotel</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h2.jpg" alt="hotel pic">
+                                    <button onclick="location.href='reserve_flight.html'" href="#" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Detailes</h3>
+                                    <ul>
+                                        <li>Address<code>1 Abou El Houl St., Giza, Cairo, Egypt</code></li>
+                                        <li>Extensions
+
+                                            <code>Free Wi-Fi </code>
+                                            <code>  Free parking  </code>
+                                        </li>
+                                        <li>Places are empty <kbd> 19 </kbd></li>
+                                        <li>Evaluation<kbd> 130 </kbd></li>
+                                        <h3>Room type</h3>
+                                        <ul>
+                                            <li>Individual Eurasia  <kbd> 9 </kbd></li>
+                                            <li>Standard Room with Nile View <kbd> 10 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">2080 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Shahrazad Hotel</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h3.jpg" alt="hotel pic">
+                                    <button href="#" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Detailes</h3>
+                                    <ul>
+                                        <li>  Address <code> 16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li> Extensions <code>Includes breakfast</code> </li>
+                                        <li>Empty places <kbd> 2 </kbd></li>
+                                        <li>Evaluation<kbd> 592 </kbd></li>
+                                        <h3>Room type</h3>
+                                        <ul>
+                                            <li> Individual Eurasia  <kbd> 3  </kbd></li>
+                                            <li> Superior Room with Nile View<kbd> 20 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">950 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Gardian Gest House</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3 ">
+                                    <img class="img-responsive" src="../images/h4.jpg" alt="hotel pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> Detailes</h3>
+                                    <ul>
+                                        <li>Address <code>16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions<code>مGYM</code></li>
+                                        <li>Places are empty<kbd> 7 </kbd></li>
+                                        <li>Evaluation<kbd> 89 </kbd></li>
+                                        <h3>Room type</h3>
+                                        <ul>
+                                            <li>Individual Eurasia <kbd> 2</kbd></li>
+                                            <li>Superior Room with Nile View  <kbd> 5 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 page">
+                        <ul class="pagination">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="dots"><span>...</span></li>
+                            <li><a href="#">215</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="external" class="tab-pane fade">
+                    <h3>4 Stars hotels</h3>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">3950 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Entar continal hotel</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h4.jpg" alt="hotel pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> Detailes</h3>
+                                    <ul>
+                                        <li>Address  <code>16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions  <code>GYM</code> <code>Swimming pool</code></li>
+                                        <li>Empty places <kbd> 1 </kbd></li>
+                                        <li>Evaluation<kbd> 1005 </kbd></li>
+                                        <h3>Room type </h3>
+                                        <ul>
+                                            <li>Individual Eurasia <kbd> 0 </kbd></li>
+                                            <li>Standard is even  <kbd> 1 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">5800 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Novotel hotel </h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h4.jpg" alt="hotel pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> Detailes</h3>
+                                    <ul>
+                                        <li>Address  <code>16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions<code>Includes breakfast</code>
+                                            <code>You can pay later</code></li>
+                                        <li>Empty places <kbd> 2 </kbd></li>
+                                        <li>Evaluation<kbd> 11,560 </kbd></li>
+                                        <h3>Room type</h3>
+                                        <ul>
+                                            <li>Standard is even  <kbd> 0 </kbd></li>
+                                            <li>أIndividual Eurasia <kbd> 2 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">12,000 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Golden toyolep Cairo hotel</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h4.jpg" alt="hotel pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> Detailes</h3>
+                                    <ul>
+                                        <li>Address <code>16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions <code> Includes breakfast</code></li>
+                                        <li>Empty places<kbd> 1 </kbd></li>
+                                        <li>Evaluation<kbd> 108,302 </kbd></li>
+                                        <h3>Room type</h3>
+                                        <ul>
+                                            <li>Standard is even<kbd> 1 </kbd></li>
+                                            <li>قIndividual Eurasia  <kbd> 0 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">8,200 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Helton</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> Detailes</h3>
+                                    <ul>
+                                        <li>Address   <code>16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions   <code> GYM</code></li>
+                                        <li>Places are empty  <kbd> 2 </kbd></li>
+                                        <li>Evaluation<kbd> 108,302 </kbd></li>
+                                        <h3>Room type </h3>
+                                        <ul>
+                                            <li>Standard is even<kbd> 1 </kbd></li>
+                                            <li>Individual Eurasia <kbd> 1 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">5,200 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Garden Gesst House</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Detailes</h3>
+                                    <ul>
+                                        <li>Address  <code>16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions<code>Free Wi-Fi</code></li>
+                                        <li>Empty places <kbd> 30 </kbd></li>
+                                        <li>Evaluation<kbd> 300,501 </kbd></li>
+                                        <h3>Room type</h3>
+                                        <ul>
+                                            <li>Basic individual <kbd> 1 </kbd></li>
+                                            <li> Individual Eurasia <kbd> 5 </kbd></li>
+                                            <li>Standard is even <kbd> 24 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left">9,200 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Barcelo </h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> Detailes</h3>
+                                    <ul>
+                                        <li>Address   <code>16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions  <code>GYM</code></li>
+                                        <li>Empty places<kbd> 50 </kbd></li>
+                                        <li>Evaluation<kbd> 300,501 </kbd></li>
+                                        <h3>Room type </h3>
+                                        <ul>
+                                            <li>Individual Eurasia <kbd> 10 </kbd></li>
+                                            <li>Standard is even  <kbd> 8 </kbd></li>
+                                            <li>Basic individual <kbd> 32 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 page">
+                        <ul class="pagination">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="dots"><span>...</span></li>
+                            <li><a href="#">1520</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="offers" class="tab-pane fade">
+                    <h3>5 Stars hotels </h3>
+                    <div class="card">
+                        <div class="discount">25%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">1,200 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Emarat Hotel</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> Detailes</h3>
+                                    <ul>
+                                        <li>Address  <code>16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions  <code>GYM</code></li>
+                                        <li>Empty places <kbd> 50 </kbd></li>
+                                        <li>Evaluation<kbd> 300,501 </kbd></li>
+                                        <h3>Room type </h3>
+                                        <ul>
+                                            <li>Standard is even<kbd> 10 </kbd></li>
+                                            <li>Individual Eurasia  <kbd> 8 </kbd></li>
+                                            <li>Basic individual<kbd> 32 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discount">38%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">5,200 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Conilda Hotel  </h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Detailes</h3>
+                                    <ul>
+                                        <li>Address  <code> 16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions <code>GYM</code></li>
+                                        <li>Empty places <kbd> 1 </kbd></li>
+                                        <li>Evaluation<kbd> 1,000,501 </kbd></li>
+                                        <h3>Room type </h3>
+                                        <ul>
+                                            <li>Standard is even<kbd> 0 </kbd></li>
+                                            <li> Individual Eurasia <kbd> 1 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discount">50%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">2,200 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Four sesson hotel </h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/h5.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3> Detailes</h3>
+                                    <ul>
+                                        <li>Address <code>16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions  <code>GYM</code></li>
+                                        <li>Empty places <kbd> 10 </kbd></li>
+                                        <li>Evaluation<kbd> 20,230 </kbd></li>
+                                        <h3>Room type </h3>
+                                        <ul>
+                                            <li>Standard is even <kbd> 1 </kbd></li>
+                                            <li>Basic dual<kbd> 2 </kbd></li>
+                                            <li>دIndividual standard <kbd> 7 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discount">12%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">19,200 LE</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3>Elqatarea Hotel</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/qatareya.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_flight.html'" class="btn btn-primary btn-lg">Book Now</button>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Detailes</h3>
+                                    <ul>
+                                        <li>Address<code>16 Saray El Gezirah St., Zamalek, Zamalek, 11211 Cairo, Egypt</code></li>
+                                        <li>Extensions <code> GYM</code></li>
+                                        <li>Empty places <kbd> 1 </kbd></li>
+                                        <li>Evaluation<kbd> 2,900,000 </kbd></li>
+                                        <h3>Room type </h3>
+                                        <ul>
+                                            <li>Individual standard <kbd> 1 </kbd></li>
+                                            <li>Standard double<kbd> 0 </kbd></li>
+                                            <li>Standard escaped  <kbd> 0 </kbd></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 page">
+                        <ul class="pagination">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="dots"><span>...</span></li>
+                            <li><a href="#">82</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end air travel tickets   -->
+    <!-- Start CopyRight  -->
+    <div class="copyright airpg">
+        <div class="container">
+            <div class="row text-center">
+                <h4>© <a href="">Rwabett</a> Internship team 2018</h4>
+            </div>
+        </div>
+    </div>
+    <!-- End   CopyRight  -->
+</body>
+
+</html>

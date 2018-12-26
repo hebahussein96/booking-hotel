@@ -1,0 +1,476 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Changa', sans-serif;
+}
+
+
+.main{
+    padding-top: 15vh
+}
+
+.all{
+    padding: 5% 0;
+}
+
+.btn-primary{
+    background-image: -webkit-gradient(linear,left top, right top,from(#00958f), to(#00b193)) !important;
+    background-image: linear-gradient(to right,#00958f, #00b193) !important; 
+}
+.btn-primary:hover{
+    background-image: -webkit-gradient(linear,left top, right top,from(#00b193),to(#00958f)) !important;
+    background-image: linear-gradient(to right,#00b193,#00958f) !important; 
+}
+.main_search_other .close{
+    position: absolute;
+    color: #fff;
+    top: 10%;
+    right: 5%;
+}
+.main_search_other .close i{
+    color: #fff;
+}
+.main_search_other .close:hover i{
+    color: #00b193;
+}
+.main_search_other{
+    position: fixed;
+    z-index: 9999 !important;
+    width: 100%;
+    height: 100%;
+    font-size: 18px; 
+    z-index: 99999;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+}
+.main_search_other .position{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+.main_search_other input,.main_search_other select,.main_search_other button{
+    width: 100%;
+    padding: 0;
+    border: none;
+    height: 8vh;
+}
+.main_search_other input{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-right: 3%; 
+}
+ .main_search_other select{
+    background-color: #00b193 !important; 
+    color: #fff;
+    padding-right: 3%; 
+}
+ .main_search_other .col-xs-6, .main_search_other .col-xs-2{
+    padding: 0;
+    margin: 0;
+}
+ .main_search_other button{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+ .main_search_other button i{ font-size: 18px}
+
+/* Start Slider */
+.item img{
+    min-height: 40vh;
+    max-height: 100vh;
+}
+#myCarousel{
+    position: relative
+}
+#myCarousel .main_search{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 9999 !important;
+    width: 80%;
+    font-size: 18px;
+}
+#myCarousel .main_search input,#myCarousel .main_search select,#myCarousel .main_search button{
+    width: 100%;
+    padding: 0;
+    border: none;
+    height: 8vh;
+}
+#myCarousel .main_search input{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-right: 3%; 
+}
+#myCarousel .main_search select{
+    background-color: #00b193 !important; 
+    color: #fff;
+    padding-right: 3%; 
+}
+#myCarousel .main_search .col-xs-6,#myCarousel .main_search .col-xs-2{
+    padding: 0;
+    margin: 0;
+}
+#myCarousel .main_search button{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#myCarousel .main_search button i{ font-size: 18px}
+/* End Slider   */
+
+/*Start Navbar*/
+.search{
+    color: #fff;
+    padding: 0.7%  1% ;
+    font-size: 22px
+}
+.search:hover{
+    color: #bbb !important;
+}
+.navbar{
+    background-image: -webkit-gradient(linear,left top, right top,from(#00958f), to(#00b193));
+    background-image: linear-gradient(to right,#00958f, #00b193);
+    border: none;
+}
+.navbar li a,.navbar-header a{
+    color: #fff !important;
+}
+.navbar li a:hover,.navbar-header a:hover{
+    color: #bbb !important;
+}
+.navbar li a.active{
+    background-color: #fff;
+    color: #00958f !important;
+}
+.navbar li a.active:hover{
+    background-color: #fff;
+    color: #000 !important;
+}
+/*End Navbar*/
+
+
+/* Start Services*/
+.services .col-md-3{
+    margin: 0 4%;
+}
+.services i{
+    font-size: 40px;
+    margin: 5%;
+    color: #00958f
+}
+
+/* End Services*/
+
+/* Start Product*/
+.products .col-md-3{
+    margin: 4%;
+}
+.products .product{
+    margin-bottom: 2%;
+    padding: 2%;
+    min-height: 134vh;
+}
+.products .product img{
+    width: 100%;
+    min-height: 44vh;
+    max-height: 50vh;
+    -webkit-box-shadow: 0 0 5px;
+    box-shadow: 0 0 5px;
+    border-radius: 5px;
+    border: none;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.products .product img:hover{
+    -webkit-animation: gry 0.5s linear;
+    animation: gry 0.5s linear;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+@-webkit-keyframes gry{
+    0%{ -webkit-filter: grayscale(100%); filter: grayscale(100%)}
+    100%{ -webkit-filter: grayscale(0); filter: grayscale(0) }
+}
+@keyframes gry{
+    0%{ -webkit-filter: grayscale(100%); filter: grayscale(100%)}
+    100%{ -webkit-filter: grayscale(0); filter: grayscale(0) }
+}
+/* End Product*/
+
+/* Start About*/
+.about .col-xs-4,.about .col-xs-6{
+    margin: 4%;
+}
+.about .col-xs-6 h2{
+    padding: 0 2% 0 0; 
+}
+.about .col-xs-6 h4{
+    padding: 2%;
+}
+.about img{
+    width: 100%;
+    border-radius: 5px;
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+    min-height: 25vh;
+}
+.about h4{
+    padding: 2% 3% 5% 18% !important;
+    font-size: 20px;
+}
+/* End About*/
+
+/* End contact*/
+.contact .col-md-5{
+    margin: 4%;
+}
+.contact input,.contact textarea{
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.4);
+    font-size: 17px;
+}
+.contact input{
+    height: 8vh;
+}
+.contact a{
+    color: #000;
+}
+.contact a:hover{
+    color: #00958f
+}
+
+.contact button{
+    float: left;
+    width: 25%
+}
+.contact a:hover{
+   /* add color here */
+   /* for test -- color: #333;*/
+}
+.contact i,.contact span{
+    font-size: 22px;
+}
+.contact .col-xs-11{
+    margin: 4%;
+}
+.contact .col-xs-10{
+    padding: 0;
+}
+.contact .col-xs-2{
+    padding-left: 0;
+}
+/* End contact*/
+
+/* Start Copyright */
+.copyright{
+    background-image: -webkit-gradient(linear,left top, right top,from(#00958f), to(#00b193));
+    background-image: linear-gradient(to right,#00958f, #00b193);
+    direction: ltr;
+    color: #fff;
+    overflow: hidden;
+}
+.copyright a{
+    color: #bbb;  
+}
+.copyright a:hover{
+    color: #fff;
+}
+/* End Copyright   */
+
+/*#####################################################################################
+                                 Start Airpage
+#####################################################################################*/
+.air .nav-tabs li{
+        float: right;
+}
+.air .nav{
+    padding-right: 0;
+}
+.airpg{
+    margin-top: 15vh;
+}
+
+/*#####################################################################################
+                                 End Airpage
+#####################################################################################*/
+
+/*#####################################################################################
+                                 Start card
+#####################################################################################*/
+
+.card{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    -webkit-box-shadow:  0 0 1px;
+    box-shadow:  0 0 1px;
+    margin: 3% 1%;
+    position: relative;
+}
+.card li{
+    list-style: none;
+    font-size: 18px;
+}
+.card kbd{
+    padding: 0.2% 2%;
+    background-image: -webkit-gradient(linear,left top, right top,from(#00b193),to(#00958f)) !important;
+    background-image: linear-gradient(to right,#00b193,#00958f) !important; 
+}
+.card img{
+    width: 100%;
+    min-height: 41vh;
+    border-radius: 5px;
+}
+.card-header{
+    background-color: #ddd
+}
+.card-header .price{
+    padding-left: 5%;
+}
+.card .col-xs-5,.card .col-md-7,.card .col-md-3,.card .col-xs-11{
+    margin: 1% 4%;
+}
+.card .col-md-3{
+    border-right: 2px solid rgba(0,0,0,0.2)
+}
+.card button{
+    float: left;
+    margin-top: 5%;
+    width: 100%;
+}
+.card .pagination>li>a, .pagination>li>span{
+    border: none;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background-color: transparent;
+}
+.pagination>li>span:hover{
+    background-color: transparent;
+}
+.page{
+    width: 100%;
+}
+.pagination{
+    width: 100%;
+    position: absolute;
+    left: 40%;
+}
+
+@media screen and (min-width:1200px){
+.card .discount{
+    position: absolute;
+    background-color: firebrick;
+    color: #fff;
+    padding: 0.4% 1.5%;
+    left: 0;
+    top: 3.5%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 4.67vh;
+    width: 5.5%;
+}
+.card .discount:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    border: 2.3vh solid firebrick;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    right: 99%;
+    top:0;
+}
+.card .discount:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    border: 2.3vh solid firebrick;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    left: 98%;
+    top:0;
+    
+}
+    }
+@media screen and (max-width:1200px){
+    .card .discount{
+    position: absolute;
+    background-color: firebrick;
+    color: #fff;
+    padding: 0.4% 0.9%;
+    left: 0;
+    bottom: 100%;
+        font-size: 18px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+/*    height: 4.67vh;*/
+}
+    .card{
+        margin-bottom: 12%;
+    }
+}
+.card li{
+    margin-bottom: 2%;
+}
+
+/*#####################################################################################
+                                 End card
+#####################################################################################*/
+
+/*#####################################################################################
+                                 Start Airpage Reservation
+#####################################################################################*/
+.air_ticket{
+    padding-bottom: 5%;
+    color: #00958f;
+/*    font-weight: 600*/
+}
+.air_ticket input{
+    width: 100%;
+    margin-bottom: 1.5%;
+    height: 7vh;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: #000;
+    background-color: #fff;
+}
+.air_ticket select{
+    width: 100%;
+    margin-bottom: 1.5%;
+    height: 7vh;
+    padding: 1% 2%;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: #000;
+    opacity: 0.7;
+    background-color: #fff;
+}
+.air_ticket textarea{
+    width: 100%;
+    margin-bottom: 1.5%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2); 
+    color: #000;
+}
+.air_ticket option{
+    color: #000;
+}
+.air_ticket button{
+    float: left;
+/*    width: 25%*/
+}
+/*#####################################################################################
+                                 End Airpage Reservation
+#####################################################################################*/
