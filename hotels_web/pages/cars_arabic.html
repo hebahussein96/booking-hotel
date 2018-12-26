@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>cars</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style_arabic.css">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Scripts -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- Google font   -->
+    <link href="https://fonts.googleapis.com/css?family=Changa|Tajawal" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start Navbar  -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-left">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand fix" href="../home.html">Ra7a</a>
+            </div>
+             <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"> Hotels</a></li>
+                <li><a href="air_arabic.html" class="active">Air Flight</a></li>
+                <li><a href="#">cars</a></li>
+                <li><a href="../home.html">Most Active</a></li>
+                <li><a href="../home.html">About</a></li>
+                <li><a href="../home.html">contact</a></li>
+                <li><a class="navbar-left search" href="#myCarousel" id="srch2">
+                <i class="fas fa-search"></i>
+            </a></li>
+            </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End Navbar  -->
+    <div class="main_search">
+            <div class="row">
+                <div class="col-xs-6">
+                    <input type="search" placeholder="Search Here">
+                </div>
+                
+                <div class="col-xs-2">
+                    <select>
+                        <option>Most view</option>
+                        <option>Most Like</option>
+                        <option>Most Ask</option>
+                    </select>
+                </div>
+
+                <div class="col-xs-2">
+                    <select>
+                        <option>hotel</option>
+                        <option>flight</option>
+                        <option>cars</option>
+                    </select>
+                </div>
+                <div class="col-xs-2">
+                    <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                </div>
+                
+            </div>
+        </div>
+    <!-- start air travel -->
+    <div class="container">
+        <div class="air main">
+            <div class="row">
+                <div class="col-xs-4 left">
+                    <div class="input-group">
+
+                    </div>
+                </div>
+                <div class="col-xs-4 right">
+                </div>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#internal">with driver</a></li>
+                <li><a data-toggle="tab" href="#external">without driver</a></li>
+                <li><a data-toggle="tab" href="#offers">Special Offers</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="internal" class="tab-pane fade in active">
+                    <h2>with dreiver</h2>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>chevrolet camaro 2015</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-right">1000 L.E</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3>Details:</h3>
+                                    <ul>
+                                        <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 23 </kbd></li>
+                                        <li>oil consumption <kbd> 125 </kbd></li>
+                                    </ul>   
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/121_1141_2335_main_1533555426.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>Hyundai 2012</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-right">1300 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3>Details:</h3>
+                                    <ul>
+                                         <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 20 </kbd></li>
+                                        <li>oil consumption <kbd> 180 </kbd></li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/121_1141_2339_main_1532268153.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>Nissan</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-right">950 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3>Details:</h3>
+                                    <ul>
+                                         <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 30 </kbd></li>
+                                        <li>oil consumption <kbd> 180 </kbd></li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/images%20(9).jfif" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-xs-3 page">
+                        <ul class="pagination">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="dots"><span>...</span></li>
+                            <li><a href="#">215</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="external" class="tab-pane fade">
+                    <h3>without driver</h3>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>Nissan 2014</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-right">3950 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3>Details:</h3>
+                                    <ul>
+                                        <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 80</kbd></li>
+                                        <li>oil consumption <kbd> 136 </kbd></li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/121_1141_2335_main_1533555426.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>seat 2010</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-right">5800 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3>Details:</h3>
+                                    <ul>
+                                         <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 23 </kbd></li>
+                                        <li>oil consumption <kbd> 125 </kbd></li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/images%20(6).jfif" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>chevrolet camaro 2011</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-right">12,000 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3>Details:</h3>
+                                    <ul>
+                                        <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 33 </kbd></li>
+                                        <li>oil consumption <kbd> 195 </kbd></li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/images%20(8).jfif" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>Zoti 2011</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-right">8700 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3>Details:</h3>
+                                    <ul>
+                                        <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 55 </kbd></li>
+                                        <li>oil consumption <kbd> 175 </kbd></li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/121_1141_7618_main_1532268316.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>chevrolet camaro 2009</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-right">5200 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3>Details:</h3>
+                                    <ul>
+                                         <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 33 </kbd></li>
+                                        <li>oil consumption <kbd> 185 </kbd></li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/121_1141_2335_main_1533555426.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>Esperanza 2015</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-right">9,200 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3>Details:</h3>
+                                    <ul>
+                                         <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 75 </kbd></li>
+                                        <li>oil consumption <kbd> 165 </kbd></li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/121_1141_2341_main_1532268140.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 page">
+                        <ul class="pagination">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="dots"><span>...</span></li>
+                            <li><a href="#">1520</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="offers" class="tab-pane fade">
+                    <h3>Special Offers</h3>
+                    <div class="card">
+                        <div class="discount">25%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>Zoti 2018</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">1,200 L.E</h3>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3> Details :</h3>
+                                    <ul>
+                                         <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 80 </kbd></li>
+                                        <li>oil consumption <kbd> 140 </kbd></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/images%20(9).jfif" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discount">38%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>seat 2018</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">5,200 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3> Details :</h3>
+                                    <ul>
+                                         <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 83 </kbd></li>
+                                        <li>oil consumption <kbd> 156 </kbd></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/images%20(7).jfif" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discount">50%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>Nissan 2017</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">2,200 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <h3> Details :</h3>
+                                    <ul>
+                                         <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 80 </kbd></li>
+                                        <li>oil consumption <kbd> 146 </kbd></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/121_1141_2341_main_1532268140.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discount">12%</div>
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <h3>Kia 2016</h3>
+                                </div>
+                                <div class="col-xs-5">
+                                    <h3 class="text-left price">19,200 L.E</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                
+                                <div class="col-md-7">
+                                    <h3> Detials :</h3>
+                                    <ul>
+                                         <li>From model: <code>2015 </code></li>
+                                        <li>To model: <code>2018 </code></li>
+                                        <li>maximum speed <kbd> 23 </kbd></li>
+                                        <li>oil consumption <kbd> 125 </kbd></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="img-responsive" src="../images/121_1141_2335_main_1533555426.jpg" alt="flight pic">
+                                    <button href="#" onclick="location.href='reserve_car_arabic.html'" class="btn btn-primary btn-lg">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 page">
+                        <ul class="pagination">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li class="dots"><span>...</span></li>
+                            <li><a href="#">82</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end air travel tickets   -->
+    <!-- Start CopyRight  -->
+    <div class="copyright airpg">
+        <div class="container">
+            <div class="row text-center">
+                <h4>© <a href="">Rwabett</a> Internship team 2018</h4>
+            </div>
+        </div>
+    </div>
+    <!-- End   CopyRight  -->
+</body>
+
+</html>
